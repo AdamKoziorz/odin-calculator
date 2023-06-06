@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: rgb(159, 159, 207);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1 {
+    padding: 48px 0px 48px 0px;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(42, 42, 42);
+    padding: 0px 12px 32px 12px;
+    border-radius: 24px;
+    border: solid rgb(42, 42, 42) 6px;
+    width: 400px;
+    box-shadow: 0px 0px 16px 2px rgba(0,0,0,.4);
+}
+
+.result-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px;
+    margin-bottom: 32px;
+    width: 424px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+#last-operation {
+    padding-left: 24px;
+    align-self: flex-start;
+    font-size: 24px;
+}
+
+#current-operation {
+    padding-right: 24px;
+    align-self: flex-end;
+    font-size: 48px;
+}
+
+.button-grid {
+    display: grid;
+    height: 100%;
+    width: 380px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 32px 12px;
+    grid-gap: 16px;
+}
+
+button {
+    padding: 23px 16px;
+    font-size: 32px;
+    border-radius: 62px;
+}
+
+.num-btn {
+    color: rgb(219, 219, 219);
+    background-color:rgb(48, 48, 48);
+    border: 0px;
+}
+
+.num-btn:hover {
+    background-color: rgb(72, 72, 72);
+}
+
+.op-btn {
+    color: white;
+    background-color: rgb(61, 61, 82);
+    border: 0px;
+}
+
+.op-btn:hover {
+    background-color: rgb(95, 95, 126);
+}
+
+.func-btn {
+    color: white;
+    background-color: rgb(65, 37, 37);
+    border: 0px;
+}
+
+.func-btn:hover {
+    background-color: rgb(88, 52, 52);
+}
